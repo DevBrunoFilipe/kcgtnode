@@ -1,0 +1,22 @@
+{
+  "name": "kcgtnode",
+  "version": "1.0.0",
+  "description": "MEAN base KCGT web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevBrunoFilipe/kcgtnode.git"
+  },
+  "author": "Bruno Ferreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevBrunoFilipe/kcgtnode/issues"
+  },
+  "homepage": "https://github.com/DevBrunoFilipe/kcgtnode#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
