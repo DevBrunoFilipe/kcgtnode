@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>KCGT</title>
+
+    <!-- bower:css-->
+    <link rel='stylesheet' href='/bootstrap/dist/css/bootstrap.min.css' />
+    <link rel='stylesheet' href='/magnific-popup/dist/magnific-popup.css' />
+    <!-- endbower -->
+
+    <!--inject:css-->
+        <link rel="stylesheet" href="/css/creative.css">
+    <!--endinject-->
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">KeepCalm Gaming Team</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <% for(i = 0; i < nav.length; i++) { %>
+                        <li>
+                            <a class="page-scroll" href="#<%= nav[i] %>"><%= nav[i] %></a>
+                        </li>
+                    <% } %>
+                    <li>
+                        <a class="page-scroll" href="#">login</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading" style="color: black; text-shadow: 2px 2px white; font-size: 65px;">KeepCalm GT</h1>
+                <hr>
+                <p style="color: black; font-weight: bold; text-shadow: 2px 2px white; font-size: 30px;">Mainly a Destiny 2 clan</p>
+                <!--<a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>-->
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="recruitment">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Who are we really?</h2>
+                    <hr class="light">
+                    <p class="text-faded">KeepCalm Gaming Team (KCGT) is a multi-cultural Destiny based clan, we were founded in the early launch of the original Destiny, and are now expanding to Destiny 2.</p>
+                    <p class="text-faded">Our main focus is raiding, however, we are not a hardcore clan, if you fancy just having some friends to do some activities, that works too.</p>
+                    <p class="text-faded">Destiny is our main game, but there's plenty of games to go around between it's members.</p>
+                    <!--<a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Care to join us?</a>-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">What/who are we looking for...</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center sr-icons">
+                    <div class="service-box">
+                        <!--<i class="fa fa-4x fa-diamond text-primary sr-icons"></i>-->
+                        <h3>Any class</h3>
+                        <p class="text-muted">With the game just beggining, there are no class recruitment restrictions, come one, come all.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center sr-icons">
+                    <div class="service-box">
+                        <!--<i class="fa fa-4x fa fa-id-card text-primary sr-icons"></i>-->
+                        <h3>Age restriction</h3>
+                        <p class="text-muted">We are a mature clan, as such, humour and overall speech is most likely not suitable for children, for now, we're restricted to 16+ of age members.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center sr-icons">
+                    <div class="service-box">
+                        <!--<i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>-->
+                        <h3>Overall ambient</h3>
+                        <p class="text-muted">Every member in the clan is pretty much outgoing, if you enjoy some comedy and a bit of silliness aswell, we might just be the right place for you. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center sr-icons">
+                    <div class="service-box">
+                        <!--<i class="fa fa-4x fa-heart text-primary sr-icons"></i>-->
+                        <h3>Portuguese & English</h3>
+                        <p class="text-muted">The clan was originally portuguese, however, with the progression of time, we opened the doors to english speaking gamers as well.</p>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <br>
+                    <hr class="primary">
+                    <br>
+                    <p><a href="/register" class="page-scroll btn btn-primary btn-xl sr-button">Register and apply</a></p>
+                    <br>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="no-padding" id="resources">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://www.youtube.com/channel/UCznI4sJgpm2A0kuXeeaXrPw" class="portfolio-box" target="_blank">
+                        <img src="img/resources/youtube_logo.jpg" class="img-responsive" alt="" style="max-height: 350px;">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    KCGT's YouTube Channel
+                                </div>
+                                <div class="project-name">
+                                    click to open...
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <!--set full size picture location if used as an actual gallery-->
+                    <!--<a href="https://www.youtube.com/channel/UCznI4sJgpm2A0kuXeeaXrPw" class="portfolio-box">-->
+                    <a href="https://www.twitch.tv/keepcalmgamingpt" class="portfolio-box" target="_blank">
+                        <img src="img/resources/twitch_logo.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    KCGT's Twitch Channel
+                                </div>
+                                <div class="project-name">
+                                    click to open...
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://www.facebook.com/KeepcalmGamingTeamPT" class="portfolio-box" target="_blank">
+                        <img src="img/resources/facebook_logo.jpg" class="img-responsive" alt="" style="max-height: 350px;">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    KCGT's Facebook page
+                                </div>
+                                <div class="project-name">
+                                    click to open...
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Feel free to join/like/subscribe to any of our channels/pages.</h2>
+            </div>
+        </div>
+    </aside>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Need to speak to one of us?</h2>
+                    <hr class="primary">
+                    <p>As registrations are not currently yet working on the website, you can contact us through on of the following means:</p>
+                </div>
+                <!--<div class="col-lg-4 col-lg-offset-2 text-center">-->
+                    <!--<i class="fa fa-phone fa-3x sr-contact"></i>-->
+                    <!--<p>123-456-6789</p>-->
+                <!--</div>-->
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a href="mailto:your-email@your-domain.com">nick@kcgt.com</a></p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a href="mailto:your-email@your-domain.com">narc@kcgt.com</a></p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a href="mailto:your-email@your-domain.com">claudio@kcgt.com</a></p>
+                </div>
+            </div>
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <hr class="primary">
+                <p>If per chance none of these methods work for you, try coming back at a later date, and trying again.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- bower:js -->
+    <script src="/jquery/dist/jquery.js"></script>
+    <script src="/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/jquery.easing/js/jquery.easing.js"></script>
+    <script src="/scrollreveal/dist/scrollreveal.js"></script>
+    <script src="/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="/popper.js/dist/umd/popper.js"></script>
+    <!-- endbower -->
+
+    <!--inject:js-->
+    <script src="/js/creative.js"></script>
+    <!--endinject-->
+
+</body>
+
+</html>

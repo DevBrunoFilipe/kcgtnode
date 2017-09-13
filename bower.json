@@ -1,0 +1,33 @@
+{
+  "name": "kcgtnode",
+  "description": "MEAN base KCGT web app",
+  "main": "app.js",
+  "authors": [
+    "Bruno Ferreira"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/DevBrunoFilipe/kcgtnode",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery.easing": "^1.3.1",
+    "scrollreveal": "^3.3.6",
+    "magnific-popup": "^1.1.0",
+    "popper.js": "^1.12.5"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.js",
+        "dist/css/bootstrap.min.css",
+        "less/bootstrap.less"
+      ]
+    }
+  }
+}
