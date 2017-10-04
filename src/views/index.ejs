@@ -14,11 +14,13 @@
     <!-- bower:css-->
     <link rel='stylesheet' href='/bootstrap/dist/css/bootstrap.min.css' />
     <link rel='stylesheet' href='/magnific-popup/dist/magnific-popup.css' />
+    <link rel='stylesheet' href='/components-font-awesome/css/font-awesome.css' />
     <!-- endbower -->
 
     <!--inject:css-->
         <link rel="stylesheet" href="/css/creative.css">
-    <!--endinject-->
+        <link rel="stylesheet" href="/css/creative.min.css">
+        <!--endinject-->
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -52,12 +54,9 @@
 
                     <% for(i = 0; i < nav.length; i++) { %>
                         <li>
-                            <a class="page-scroll" href="#<%= nav[i] %>"><%= nav[i] %></a>
+                            <a class="page-scroll" href="<%= nav[i].Link %>"><%= nav[i].Text %></a>
                         </li>
                     <% } %>
-                    <li>
-                        <a class="page-scroll" href="#">login</a>
-                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -84,7 +83,7 @@
                     <hr class="light">
                     <p class="text-faded">KeepCalm Gaming Team (KCGT) is a multi-cultural Destiny based clan, we were founded in the early launch of the original Destiny, and are now expanding to Destiny 2.</p>
                     <p class="text-faded">Our main focus is raiding, however, we are not a hardcore clan, if you fancy just having some friends to do some activities, that works too.</p>
-                    <p class="text-faded">Destiny is our main game, but there's plenty of games to go around between it's members.</p>
+                    <!--<p class="text-faded">Destiny is our main game, but there's plenty of games to go around between it's members.</p>-->
                     <!--<a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Care to join us?</a>-->
                 </div>
             </div>
@@ -132,11 +131,11 @@
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <br>
-                    <hr class="primary">
+                    <hr class="primary sr-icons">
                     <br>
-                    <p><a href="/register" class="page-scroll btn btn-primary btn-xl sr-button">Register and apply</a></p>
+                    <p><a href="https://www.bungie.net/en/ClanV2?groupid=927314" class="page-scroll btn btn-primary btn-xl sr-button" target="_blank">Register and apply</a></p>
                     <br>
-                    <hr class="primary">
+                    <hr class="primary sr-icons">
                 </div>
             </div>
         </div>
@@ -204,7 +203,7 @@
         </div>
     </aside>
 
-    <section id="contact">
+    <section id="contacts">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
